@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+paplay ~/.local/bin/resources/pomo_alert.wav --volume=35000

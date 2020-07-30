@@ -1,0 +1,1 @@
+KERNEL=="video*", SUBSYSTEM=="video4linux", SUBSYSTEMS=="usb", ATTR{name}=="Lenovo EasyCamera: Lenovo EasyC", ATTRS{idVendor}=="04f2", ATTR{idProduct}=="b37c", NAME:="video0", SYMLINK+="video-cam"

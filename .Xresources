@@ -1,0 +1,37 @@
+URxvt.perl-ext-common: matcher,close-gracefully,selection-to-clipboard,pasta
+URxvt.transparent:false
+URxvt.depth: 32
+URxvt.font: xft:Source\ Code\ Pro\ Medium:pixelsize=13:antialias=true:hinting=true,xft:Font\ Awesome\ 5\ Free\ Solid:style:solid:pixelsize=13
+URxvt.scrollBar: false
+URxvt.background: rgba:0700/0100/2500/cccc
+URxvt.fading: 2%
+URxvt.fadeColor: gray 
+
+! enabling copy paste
+URxvt.url-launcher:   /usr/bin/xdg-open
+URxvt.underlineURLs:  True
+URxvt.matcher.button: 1 
+! URxvt.keysym.M-Escape:perl:keyboard-select:activate
+URxvt.keysym.Control-Shift-V:     perl:pasta:paste
+! Comment this if you dont want copy when text is selected
+! URxvt.clipboard.autocopy: true
+
+! Disabling weird Ctrl+Shift
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+!URxvt.shading: 20
+!scrollBar_align:                mode
+
+URxvt.letterSpace: true
+
+! special
+*.foreground:   #ffffff
+*.background:   #0e1116
+*.cursorColor:  #ffffff
+
+XTerm*utf8Title:true
+! 正确显示中文标点宽度所需
+XTerm*cjkWidth:true
+
+! Cursor size
+Xcursor.size: 64
